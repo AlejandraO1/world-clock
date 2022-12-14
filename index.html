@@ -4,13 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link ref="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select>
+        <option value="">Select a city</option>
+        <option value="">Tokyo</option>
+        <option value="">New York</option>
+        <option value="">Puebla</option>
+        <option value="">Fuzhou</option>
+      </select>
+      <div class="city">
+        <h2>London</h2>
+        <div class="date">Dec. 14</div>
+        <div class="time">2:45 PM</div>
+      </div>
+      <div class="city">
+        <h2>Lisbon</h2>
+        <div class="date">Dec. 14</div>
+        <div class="time">2:45 PM</div>
+      </div>
+    </div>
     <footer>
-      This project was coded by Alejandra Ortega Bravo and is
+      This project was coded by Alejandra Ortega and is
       <a href="https://github.com/AlejandraO1/world-clock" target="_blank">
         open sourced on GitHub</a
       >
