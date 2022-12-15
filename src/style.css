@@ -51,6 +51,16 @@ h2 {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+  color: #5a435f;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  color: #153250;
+}
+
 /*Footer */
 footer {
   text-align: center;
@@ -59,12 +69,12 @@ footer {
   font-size: 18px;
 }
 
-a {
+.git-link {
   text-decoration: none;
-  color: #5a435f;
+  color: #c3c9de;
   transition: all 200ms ease-in-out;
 }
 
-a:hover {
-  color: #c3c9de;
+.git-link:hover {
+  color: #5a435f;
 }
